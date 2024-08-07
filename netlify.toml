@@ -2,6 +2,9 @@
   publish = "build"
   command = "npm run build"
 
+[context.production.environment]
+  CI = "false"
+
 # Optional settings for specific contexts
 # [context.production.environment]
 #   NODE_ENV = "production"
