@@ -10,7 +10,7 @@ function Home() {
       <div className="hero-content">
         <h1>Hi, I'm Louie Maas</h1>
         <p>I'm a software developer with experience all across the tech stack working on a variety of projects and in a variety of roles.</p>
-        <a href="/projects" className="cta-button">View My Work</a>
+        {/* <a href="/projects" className="cta-button">View My Work</a> */}
       </div>
     </div>
   );
