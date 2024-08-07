@@ -1,6 +1,14 @@
 import React from 'react';
 import './About.css'; // Optional: For styling
 
+// Define image sources
+const coldSoccerPic1 = 'assets/images/coldsoccerpic.jpg';
+const coldSoccerPic2 = 'assets/images/coldsoccerpic2.jpg';
+const itaSoc = 'assets/images/itasoc.jpg'
+const lisboaSurf = 'assets/images/lisboasurf.jpg';
+const sdSurf = 'assets/images/sdsurf.jpg';
+const pickupGoal = 'assets/images/pickupgoal.mov'
+
 function About() {
   return (
     <div className="about-container">
@@ -12,11 +20,26 @@ function About() {
           I love playing and watching soccer. I’ve been a fan of Arsenal in the Premier League since I became 
           obsessed with them playing FIFA twelve years ago. I watch all of their games, and am perhaps more 
           emotionally invested in them than is healthy. I still play soccer frequently for fun; when I’m at school 
-          in Boston, I play on various intramural teams and at pickup games on some weeknights. Right now, in Italy, 
-          I’m playing on a team with all Italian-speaking teammates, which has been a super fun opportunity to 
-          immerse myself in the culture as well as share in a sport I love, which serves as a universal language to 
+          in Boston, I play on various intramural teams and at pickup games on some weeknights. When I lived in Italy
+          for four months in fall 2023, I played on a team with all Italian-speaking teammates, which was a super fun opportunity to 
+          immerse myself in the culture as well as share in a sport I love, which served as a universal language to 
           connect me to my teammates.
         </p>
+        <div className="image-row">
+          <div className="image-container">
+          <iframe className="video"
+            src="https://www.youtube.com/embed/lZGbAguEfAY"
+            title="Pickup goal"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+            <p className="caption">Me playing soccer in Boston</p>
+          </div>
+          <div className="image-container">
+            <img src={itaSoc} alt="Picture of my soccer team in Italy" className="about-image"/>
+            <p className="caption">Me with my Italian soccer team</p>
+          </div>
+        </div>
       </section>
 
       <section className="about-section">

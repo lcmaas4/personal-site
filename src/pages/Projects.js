@@ -27,7 +27,13 @@ function Projects() {
         <p><strong>Python Connect Four AI player made in Jupyter Notebooks</strong></p>
         <p><em>February 2022 – March 2022</em></p>
         <p>
-          Engineered a heuristic to determine the quality of a Connect Four game state for either player. Employed this heuristic in an A* depth-first search to compute the best possible move for the AI player to make (considering its opponent’s best possible moves) to a specified depth of moves. Integrated this search technique into a standalone function to compute the AI player’s move, allowing the user to play against the AI player or pit it against another AI player.
+          Engineered a heuristic to determine the quality of a Connect Four game state for either player.
+        </p>
+        <p>
+          Employed this heuristic in an A* depth-first search to compute the best possible move for the AI player to make (considering its opponent’s best possible moves) to a specified depth of moves.
+        </p>
+        <p>  
+          Integrated this search technique into a standalone function to compute the AI player’s move, allowing the user to play against the AI player or pit it against another AI player.
         </p>
         <img src={connectFourImg} alt="Connect Four AI" className="project-image"/>
       </section>
