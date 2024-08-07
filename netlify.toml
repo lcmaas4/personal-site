@@ -1,0 +1,11 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+# Optional settings for specific contexts
+# [context.production.environment]
+#   NODE_ENV = "production"
+
+# [context.deploy-preview]
+#   command = "npm run build"
+#   publish = "build"
