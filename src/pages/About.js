@@ -7,7 +7,6 @@ const coldSoccerPic2 = 'assets/images/coldsoccerpic2.jpg';
 const itaSoc = 'assets/images/itasoc.jpg'
 const lisboaSurf = 'assets/images/lisboasurf.jpg';
 const sdSurf = 'assets/images/sdsurf.jpg';
-const pickupGoal = 'assets/images/pickupgoal.mov'
 
 function About() {
   return (
@@ -33,11 +32,11 @@ function About() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
-            <p className="caption">Me playing soccer in Boston</p>
+            <p className="caption">Playing soccer in Boston</p>
           </div>
           <div className="image-container">
             <img src={itaSoc} alt="Picture of my soccer team in Italy" className="about-image"/>
-            <p className="caption">Me with my Italian soccer team</p>
+            <p className="caption">My Italian soccer team</p>
           </div>
         </div>
       </section>
@@ -56,7 +55,7 @@ function About() {
         </p>
         <iframe 
           style={{ border: 'none' }} src="https://open.spotify.com/embed/artist/67FmeW4aEHnEA4WGxPPo8a?utm_source=generator" 
-          width="100%" height="352" frameBorder="0" allowfullscreen="" title="Spotify Player"
+          width="100%" height="524" frameBorder="0" allowfullscreen="" title="Spotify Player"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
         </iframe>
       </section>
@@ -65,14 +64,16 @@ function About() {
         <h2>Philosophy</h2>
         <p>
           Before my junior year of high school, I was almost exclusively interested in STEM. I thought, unfairly, 
-          that the humanities lacked rigor and concrete answers. This was until I took Jared D’Onofrio’s AP Language 
-          and Composition at Francis Parker School. He opened my eyes to how the analysis of literature could yield 
-          new insights about the nature of ourselves and our reality. This led me down a rabbit hole of philosophy 
+          that the humanities lacked concrete answers about life and the rigor required to arrive at them. This was until I took Jared D’Onofrio’s AP Language 
+          and Composition course during my junior year at Francis Parker School. He opened my eyes to how the analysis of literature could serve 
+          as a canvas on which to paint new insights about the nature of ourselves and our reality. This led me down a rabbit hole of philosophy 
           podcasts, and, eventually, books, which fundamentally changed the way I saw the world. For the first time, 
           I was able to appreciate the beauty and complexity of the human experience, which I find to be derived from 
-          its inevitable end and inherent chaos; its inability to be measured by equations. The work of the 
-          Existentialists, particularly those in the Absurdist camp, speaks to me the most. Much of my everyday 
-          outlook on life, reduced roughly to the idea that the lack of inherent meaning in our existence is 
+          its inevitable end and inherent chaos; our inability to completely reduce our existence to equations. 
+        </p>
+        <p>
+          The work of the Existentialists, particularly those in the Absurdist camp, speaks to me the most.
+          Much of my everyday outlook on life, reduced roughly to the idea that the lack of inherent meaning in our existence is 
           liberating, as it gives us the opportunity to carve it out for ourselves in whatever form we desire, is 
           influenced by this camp of thinkers. I’ve recently taken particular interest in Guy Debord’s The Society of 
           the Spectacle, which I find to be even more applicable to today’s world than Debord’s when he wrote it in 
@@ -86,9 +87,9 @@ function About() {
       <section className="about-section">
         <h2>Languages</h2>
         <p>
-          As a Latin American, I grew up around spoken Spanish at my grandparents’ house, supplementing it with 
-          studies in high school, and, more recently, conversations on the streets of Madrid at six in the morning 
-          after nights out, to achieve a level somewhere between proficiency and fluency. My understanding of Spanish 
+          As a Latin American, I grew up around spoken Spanish at my grandparents’ house, then fleshed out what I'd picked up with 
+          studies in high school, and, in the past couple years, conversations with people in Madrid, Sevilla, Barcelona, and Medellin 
+          to achieve a level somewhere between proficiency and fluency. My knowledge of Spanish 
           has formed the basis of my studies of French at college, and my learning of Italian, somewhat out of 
           necessity, during my four months working in a small city in Italy. I enjoy furthering my knowledge and 
           understanding of these languages through individual study, films, music, and conversations, because I 
@@ -103,6 +104,16 @@ function About() {
         <p>
           It’s fun! I like it!
         </p>
+        <div className="image-row">
+          <div className="image-container">
+              <img src={lisboaSurf} alt="After surfing in Lisbon, Portugal" className="about-image"/>
+              <p className="caption">After surfing in Lisbon, Portugal</p>
+            </div>
+          <div className="image-container">
+            <img src={sdSurf} alt="Surfing at home in San Diego" className="about-image"/>
+            <p className="caption">Surfing at home in San Diego</p>
+          </div>
+        </div>
       </section>
     </div>
   );

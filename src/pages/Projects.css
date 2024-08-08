@@ -1,6 +1,6 @@
 .projects-container {
     padding: 20px;
-    margin: 0 10% auto;
+    background-color: #f5f5f5;
     /* max-width: ; */
   }
   
@@ -10,8 +10,16 @@
   }
   
   .project-section {
+    margin: 0 10% auto;
     margin-bottom: 40px;
     border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+
+  .project-section-last {
+    margin: 0 10% auto;
+    margin-bottom: 40px;
+    /* border-bottom: 1px solid #ccc; */
     padding-bottom: 20px;
   }
   

@@ -39,21 +39,37 @@ function Projects() {
       </section>
 
       <section className="project-section">
-        <h2>Samo Showdown</h2>
-        <p><strong>HTML/JavaScript fighting game (~1400 lines) made in Notepad++</strong></p>
+        <h2>
+          <a href="https://github.com/lcmaas4/t2-fighter" target="_blank" rel="noopener noreferrer">
+            Samo Showdown
+          </a>
+        </h2>
+        <p><strong>HTML/JavaScript/CSS fighting game made in Notepad++</strong></p>
         <p><em>January 2020 - June 2020</em></p>
         <p>
-          Coded JavaScript logic to handle user actions, game states, and combatant health. Implemented spritesheets to animate the movement of the character. Won 2021 Silvergames.com student scholarship competition, and a $2000 scholarship.
+          Coded JavaScript logic to handle user actions, game states, and combatant health. 
+        </p>
+        <p>
+          Implemented spritesheets to animate the movement of the character. 
+        </p>
+        <p>
+          Won 2021 Silvergames.com student scholarship competition, and a $2000 scholarship.
         </p>
         <img src={samoShowdownImg} alt="Samo Showdown" className="project-image"/>
       </section>
 
-      <section className="project-section">
+      <section className="project-section-last">
         <h2>Maze Game</h2>
         <p><strong>Java program which randomly generates and then solves a maze of arbitrary size</strong></p>
         <p><em>April 2022</em></p>
         <p>
-          Uses a modified version of Kruskal’s algorithm to generate a maze of a size specified by the user by using the arrow keys to increase/decrease horizontal/vertical dimensions from the starting size. Allows users to visualize the “knocking down” of the walls tick-by-tick to create the maze from a full grid. Solves the maze using either breadth-first or depth-first search.
+          Uses a modified version of Kruskal’s algorithm to generate a maze of a size specified by the user by using the arrow keys to increase/decrease horizontal/vertical dimensions from the starting size. 
+        </p>
+        <p>
+          Allows users to visualize the “knocking down” of the walls tick-by-tick to create the maze from a full grid. 
+        </p>
+        <p>
+          Solves the maze using either breadth-first or depth-first search.
         </p>
         <img src={mazeGameImg} alt="Maze Game" className="project-image"/>
       </section>

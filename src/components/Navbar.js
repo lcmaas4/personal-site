@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Navbar.css';
@@ -9,16 +8,19 @@ function Navbar() {
     <nav className="navbar">
       <ul className="navbar-menu">
         <li className="navbar-item">
-          <Link to="/" className="navbar-link">Home</Link>
+          <a href="#home" className="navbar-link">Home</a>
         </li>
         <li className="navbar-item">
-          <Link to="/about" className="navbar-link">About</Link>
+          <a href="#experience" className="navbar-link">Experience</a>
         </li>
         <li className="navbar-item">
-          <Link to="/projects" className="navbar-link">Projects</Link>
+          <a href="#projects" className="navbar-link">Projects</a>
         </li>
         <li className="navbar-item">
-          <Link to="/resume" className="navbar-link">Resume</Link>
+          <a href="#resume" className="navbar-link">Resume</a>
+        </li>
+        <li className="navbar-item">
+          <a href="#about" className="navbar-link">About</a>
         </li>
         <li className="navbar-item">
           <a href="https://www.linkedin.com/in/lcmaas4" className="navbar-link" target="_blank" rel="noopener noreferrer">

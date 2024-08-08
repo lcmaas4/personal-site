@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 15% 5%;
     background-color: #f5f5f5;
+    /* margin: 100px 0 auto; */
   }
   
   .hero-content {
-    max-width: 600px;
+    max-width: 30%;
   }
   
   .hero-content h1 {
@@ -18,18 +19,6 @@
   .hero-content p {
     font-size: 1.2em;
     margin-bottom: 20px;
-  }
-  
-  .cta-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .cta-button:hover {
-    background-color: #0056b3;
   }
   
   .hero-image img {
