@@ -14,7 +14,7 @@ function Home() {
         </div>
         <div className="hero-content">
           <h1>Hi, I'm Louie Maas</h1>
-          <p>I'm a people-oriented software developer with experience across the tech stack, working on various projects and roles.</p>
+          <p>I'm a people-oriented software developer with experience across the tech stack, working on various projects and in a variety of roles.</p>
         </div>
       </div>
 

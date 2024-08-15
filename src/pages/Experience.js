@@ -23,7 +23,7 @@ function Experience() {
             <h2>Software Developer Intern, Lumen Technologies</h2>
             <ul>
               <li>Collaborated in an Agile framework, participating in daily stand-ups to share work and resolve blockers.</li>
-              <li>Analyzed and resolved issues in JSON schema validation packages, ensuring accurate processing of customer network service requests and improving system reliability.</li>
+              <li>Managed and manipulated a database of FitNesse test logs using robust SQL queries.</li>
               <li>Migrated nightly Yang/XML FitNesse tests to new lab devices, ensuring code correctness and efficiency.</li>
               <li>Leveraged my strong background in algorithms and data structures to optimize memory usage and runtime of Groovy scripts, enhancing the performance of parsing service requests from network customers.</li>
             </ul>
@@ -40,9 +40,9 @@ function Experience() {
             <ul>
               <li>Developed an <a 
                 target="_tab" rel="noopener noreferrer" href="https://github.com/iandreafc/distinctiveness-R"> R package
-                </a> for computing metrics of Distinctiveness Centrality, a metric to interpret graphical data, used in the Semantic Brand Score (SBS) Business Intelligence App.</li>
+                </a> for computing metrics of Distinctiveness Centrality, a metric to interpret graphical data, used in the Semantic Brand Score (SBS) Business Intelligence App which conducts semantic analysis of text.</li>
               <li><a target="_tab" rel="noopener noreferrer" href="https://cran.r-project.org/web/packages/distinctiveness/index.html">Published the package to CRAN</a>, distributing the package to users in many R development environments.</li>
-              <li>Optimized the performance of the <a target="_tab" rel="noopener noreferrer" href="https://semanticbrandscore.com/">SBS App</a> by implementing parallel processing strategies.</li>
+              <li>Optimized the <a target="_tab" rel="noopener noreferrer" href="https://semanticbrandscore.com/">SBS App</a>'s learning algorithms by implementing parallel processing strategies</li>
             </ul>
           </div>
           <div className="timeline-image">
@@ -73,9 +73,10 @@ function Experience() {
           <div className="timeline-content">
             <h2>Software Engineering Intern, EMR Direct</h2>
             <ul>
-              <li>Developed software to ensure product compliance with HL7 FHIR industry standards in Java.</li>
               <li>Created web pages for customers to engage with our products in HTML/CSS/PHP.</li>
-              <li>Maintained an end-to-end encrypted messaging system between healthcare providers and patients.</li>
+              <li>Worked with REST APIs to ensure the secure transmission of health information over a national network of
+                  hospitals and patients.</li>
+              <li>Used REST APIs to make health records accessible in accordance with HL7 standards to doctors/patients.</li>
             </ul>
           </div>
           <div className="timeline-image">
