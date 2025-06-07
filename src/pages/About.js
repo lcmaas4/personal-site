@@ -97,8 +97,7 @@ function About() {
           </div>
           <div className="image-container">
             <iframe
-              width="560"
-              height="315"
+              classname="video"
               src="https://www.youtube.com/embed/spGsueMTI_A?si=SKvfItNAH6VpBdrt"
               title="YouTube video player"
               frameborder="0"

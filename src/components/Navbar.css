@@ -52,37 +52,68 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .navbar {
-    bottom: 0;
-    top: auto;
+    top: 0;
     right: 0;
     height: 60px;
     width: 100%;
     padding: 10px;
-  }
-
-  .navbar:hover {
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
   }
 
   .navbar-menu {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
   }
 
-  .navbar-link:hover {
-    transform: translateY(-4px);
+  .navbar-item {
+    display: none;
+    height: 100%;
+  }
+
+  /* Only show hero image and social links */
+  .navbar-item:first-child,
+  .navbar-item:nth-last-child(2),
+  .navbar-item:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .navbar-text {
-    display: none !important;
+    display: none;
   }
 }
 
 .hero-image img {
   max-width: 70%;
-  height: auto;
-  border-radius: 8px;
 }

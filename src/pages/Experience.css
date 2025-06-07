@@ -61,13 +61,13 @@ h1 {
   align-items: center;
   margin-left: 3%;
   margin-right: 3%;
-  height: 100%; /* Set the container height to match the content */
+  height: 100%;
 }
 
 .timeline-image img {
   max-width: 100%;
-  max-height: 100%; /* Constrain the image height to the container height */
-  object-fit: cover; /* Cover the area without distorting the image */
+  max-height: 100%;
+  object-fit: cover;
 }
 
 .timeline-date-start,
@@ -112,4 +112,55 @@ h1 {
 
 .timeline-content li > a:hover {
   color: white;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .experience-container {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    margin-left: 40px;
+    display: grid;
+    grid-template-areas:
+      "image"
+      "content";
+  }
+
+  .timeline-item:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .timeline-content,
+  .timeline-image {
+    width: 100%;
+  }
+
+  .timeline-image {
+    grid-area: image;
+    margin: 0 0 20px 0;
+    max-height: 150px;
+  }
+
+  .timeline-content {
+    grid-area: content;
+    padding: 15px;
+  }
+
+  .timeline-image img {
+    max-height: 150px;
+  }
+
+  .timeline-date-start,
+  .timeline-date-end {
+    left: -60px !important;
+    right: auto !important;
+  }
 }

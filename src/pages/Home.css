@@ -44,10 +44,9 @@
   letter-spacing: 0.01em;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
   .home-container {
-    padding-right: 0; /* Remove padding on mobile */
+    margin-left: 0; /* Remove padding on mobile */
   }
 
   .hero-section {
@@ -56,8 +55,8 @@
   }
 
   .hero-image {
-    margin-bottom: 20px;
-    margin-top: 50px;
+    padding: 0;
+    margin: 0;
   }
 
   .hero-content {

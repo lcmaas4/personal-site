@@ -34,13 +34,15 @@ function Navbar() {
   return (
     <nav className="navbar">
       <ul className="navbar-menu">
-        <div className="hero-image">
-          <img
-            src="../assets/images/balc.PNG"
-            alt="Hero"
-            className="small-image"
-          />
-        </div>
+        <li className="navbar-item">
+          <div className="hero-image navbar-link">
+            <img
+              src="../assets/images/balc.PNG"
+              alt="Hero"
+              className="small-image"
+            />
+          </div>
+        </li>
         {navItems.map((item, index) => (
           <li key={index} className="navbar-item">
             <a

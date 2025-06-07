@@ -1,9 +1,27 @@
 .resume-container {
-    padding: 20px;
-    text-align: center;
+  text-align: center;
+  height: 100%;
+}
+
+.resume-container h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.resume-container object {
+  width: 100%;
+  height: 1200px;
+}
+
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 0;
+    width: 100%;
+    height: 80vh;
   }
-  
-  .resume-container h1 {
-    margin-bottom: 20px;
+
+  .resume-container object {
+    width: 100%;
+    height: 80vh;
   }
-  
+}
