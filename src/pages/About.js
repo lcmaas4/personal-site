@@ -20,14 +20,13 @@ function About() {
         <p>
           I love playing and watching soccer. I’ve been a fan of Arsenal in the
           Premier League since I became obsessed with them playing FIFA twelve
-          years ago. I watch all of their games, and am perhaps more emotionally
-          invested in them than is healthy. I still play soccer frequently for
-          fun; when I’m at school in Boston, I play on various intramural teams
-          and at pickup games on some weeknights. When I lived in Italy for four
-          months in fall 2023, I played on a team with all Italian-speaking
-          teammates, which was a super fun opportunity to immerse myself in the
-          culture as well as share in a sport I love, which served as a
-          universal language to connect me to my teammates.
+          years ago. I still play soccer frequently for fun- when I’m at school
+          in Boston, I play on various intramural teams and at pickup games on
+          some weeknights. When I lived in Italy for four months in fall 2023, I
+          played on a team with all Italian-speaking teammates, which was a
+          super fun opportunity to immerse myself in the culture as well as
+          share in a sport I love, which served as a universal language to
+          connect me to my teammates.
         </p>
         <div className="image-row">
           <div className="image-container">

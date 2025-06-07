@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -11,6 +11,31 @@ import {
 import "./Navbar.css";
 
 function Navbar() {
+  const [isHidden, setIsHidden] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY === 0) {
+        setIsHidden(false);
+      } else if (currentScrollY > lastScrollY) {
+        setIsHidden(true);
+      } else if (currentScrollY < lastScrollY) {
+        setIsHidden(false);
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
   const navItems = [
     { href: "#home", icon: faHome, text: "Home" },
     { href: "#experience", icon: faBriefcase, text: "Experience" },
@@ -32,7 +57,7 @@ function Navbar() {
   ];
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${isHidden ? "hidden" : ""}`}>
       <ul className="navbar-menu">
         <li className="navbar-item">
           <div className="hero-image navbar-link">

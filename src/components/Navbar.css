@@ -6,6 +6,7 @@
   width: 200px;
   background-color: transparent !important;
   color: #ffffff;
+  padding: 20px 10px;
   z-index: 1000;
   display: flex;
   justify-content: center;
@@ -54,6 +55,7 @@
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .navbar {
+    position: fixed;
     top: 0;
     right: 0;
     height: 60px;
@@ -61,6 +63,12 @@
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.8);
     align-items: center;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+  }
+
+  .navbar.hidden {
+    transform: translateY(-100%);
   }
 
   .navbar-menu {
