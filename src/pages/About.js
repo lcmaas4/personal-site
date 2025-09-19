@@ -166,10 +166,11 @@ function About() {
           this lack of predetermined meaning gives us the opportunity,
           circumstance and time permitting, to carve out almost whatever form of
           meaning we desire. I’ve recently taken particular interest in Guy
-          Debord’s The Society of the Spectacle, which I find to be even more
-          applicable to today’s world, where social media and consumerism have
-          taken his concept of the Spectacle to extremes that perhaps even he
-          could not have foreseen, than Debord’s when he wrote it in 1967.
+          Debord’s The Society of the Spectacle, which, while certainly
+          applicable to his world when he wrote it in 1967, I find to be even
+          more applicable to today’s world, where social media and consumerism
+          have taken his concept of the Spectacle to extremes that perhaps even
+          he could not have foreseen.
         </p>
       </section>
 
