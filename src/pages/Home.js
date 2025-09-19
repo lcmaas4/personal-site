@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css"; // Custom CSS for the Home component
 import About from "./About.js"; // Adjust the import path as necessary
 import Projects from "./Projects.js"; // Adjust the import path as necessary
-import Resume from "./Resume.js"; // Adjust the import path as necessary
 import Experience from "./Experience.js"; // Adjust the import path as necessary
 import Background from "../components/Background";
 
@@ -16,10 +15,31 @@ function Home() {
           <p>
             I'm a people-oriented software developer with experience across the
             tech stack through a variety of roles and projects. I specialize in
-            full-stack and front-end development, with a focus on building
-            scalable and efficient systems with an eye for design. I'm currently
-            working as a software engineering co-op at Proof.
+            full-stack and frontend development, with expertise in building
+            scalable and efficient systems with an eye for design. I've just
+            finished a successful 8+ months working as a Software Engineering
+            Co-op at Proof.
           </p>
+          <a
+            href="/assets/Maas_Luis_Dec2025.pdf"
+            download="Maas_Luis_Dec2025.pdf"
+            className="download-resume-btn"
+            style={{
+              marginTop: "1.5em",
+              padding: "0.7em 1.5em",
+              fontSize: "1.1em",
+              borderRadius: "6px",
+              background: "none",
+              color: "white",
+              border: "2px solid #8e8e90",
+              textDecoration: "none",
+              fontWeight: 600,
+              display: "inline-block",
+              transition: "background 0.2s, color 0.2s",
+            }}
+          >
+            Download My Resume
+          </a>
         </div>
       </div>
 
@@ -31,10 +51,6 @@ function Home() {
 
       <div className="full-section" id="projects">
         <Projects />
-      </div>
-
-      <div className="full-section" id="resume">
-        <Resume />
       </div>
 
       <div className="full-section" id="about">

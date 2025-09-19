@@ -21,8 +21,54 @@ function Experience() {
         <div className="timeline-item" data-aos="fade-up">
           <div className="timeline-content">
             <h2>Software Engineering Co-op, Proof</h2>
-            <h4>January 2025 - August 2025</h4>
-            <ul></ul>
+            <h4>January 2025 – September 2025</h4>
+            <ul>
+              <li>
+                Led frontend development and contributed to specification and
+                backend development of numerous new features to meet customer
+                needs:
+                <ul>
+                  <li>
+                    <em>Cost centers:</em> Custom accounting categories allowing
+                    businesses to tag transactions to differentiate them for
+                    accounting purposes. Developed creation, editing, and
+                    transaction application flow, as well as interactive,
+                    searchable table view for all created cost centers.
+                  </li>
+
+                  <li>
+                    <em>Brand settings profiles:</em> Enabled businesses to
+                    customize branding on customer interaction with our platform
+                    relating to their business operations.
+                  </li>
+
+                  <li>
+                    <em>Command Center home page:</em> New home page for my
+                    team’s flagship product, Command Center, with custom cards
+                    enabling users to navigate to different sections of Command
+                    Center.
+                  </li>
+
+                  <li>
+                    <em>Paginated organizations table:</em> Developed a
+                    paginated table for all child organizations and their
+                    relationships for root organizations. Created and optimized
+                    interactive functionality, allowing users to modify
+                    attributes of and relationships between organizations.
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                Wrote comprehensive end-to-end (WebDriver E2E) and unit (Jest)
+                tests for new feature work.
+              </li>
+
+              <li>
+                Cleaned up unused LaunchDarkly flags and display bugs/redux form
+                usages across the platform.
+              </li>
+            </ul>
           </div>
           <div className="timeline-image">
             <img src={proofImage} alt="Proof logo" />
@@ -31,25 +77,27 @@ function Experience() {
         <div className="timeline-item" data-aos="fade-up">
           <div className="timeline-content">
             <h2>Software Developer Intern, Lumen Technologies</h2>
-            <h4>May 2024 - August 2024</h4>
+            <h4>May 2024 – August 2024</h4>
             <ul>
               <li>
-                Collaborated in an Agile framework, participating in daily
-                stand-ups to share work and resolve blockers.
+                Maintained complex network routing systems, adapted them to
+                consumer network device and route changes.
               </li>
+
               <li>
-                Managed and manipulated a database of FitNesse test logs using
-                robust SQL queries.
+                Diagnosed and resolved issues in JSON schema validation
+                packages, ensuring accurate processing of customer network
+                service requests and improving system reliability.
               </li>
+
               <li>
-                Migrated nightly Yang/XML FitNesse tests to new lab devices,
-                ensuring code correctness and efficiency.
+                Optimized the performance of scripts transforming network
+                service requests into optimal enablement paths.
               </li>
+
               <li>
-                Leveraged my strong background in algorithms and data structures
-                to optimize memory usage and runtime of Groovy scripts,
-                enhancing the performance of parsing service requests from
-                network customers.
+                Migrated unit (FitNesse) tests to new lab devices and
+                manipulated test databases using robust SQL queries.
               </li>
             </ul>
           </div>
@@ -63,7 +111,7 @@ function Experience() {
               AI Software Development/Research Co-op, University of Perugia
               (Italy)
             </h2>
-            <h4>September 2023 - December 2023</h4>
+            <h4>September 2023 – December 2023</h4>
             <ul>
               <li>
                 Developed an{" "}
@@ -80,6 +128,7 @@ function Experience() {
                 Business Intelligence App which conducts semantic analysis of
                 text.
               </li>
+
               <li>
                 <a
                   target="_tab"
@@ -91,6 +140,7 @@ function Experience() {
                 , distributing the package to users in many R development
                 environments.
               </li>
+
               <li>
                 Optimized the{" "}
                 <a
@@ -112,7 +162,7 @@ function Experience() {
         <div className="timeline-item" data-aos="fade-up">
           <div className="timeline-content">
             <h2>Lead Web Developer, Envision Exotics</h2>
-            <h4>March 2023 - September 2023</h4>
+            <h4>March 2023 – September 2023</h4>
             <ul>
               <li>
                 Created an online shop for exotic car rentals in Miami, FL that
@@ -125,13 +175,15 @@ function Experience() {
                   envisionexotics.com
                 </a>
               </li>
+
               <li>
                 Developed functionality for customers to reserve times and dates
                 for specific cars in inventory.
               </li>
+
               <li>
-                Designed infrastructure to handle payments, security deposits,
-                e-signing of rental agreements, and intake/verification of
+                Built infrastructure to handle payments, security deposits,
+                e-signing of rental agreements, and intake and verification of
                 driver's licenses and insurance information.
               </li>
             </ul>
@@ -143,20 +195,18 @@ function Experience() {
         <div className="timeline-item" data-aos="fade-up">
           <div className="timeline-content">
             <h2>Software Engineering Intern, EMR Direct</h2>
-            <h4>September 2020 - December 2020</h4>
+            <h4>September 2020 – December 2020</h4>
             <ul>
               <li>
                 Created web pages for customers to engage with our products in
                 HTML/CSS/PHP.
               </li>
+
               <li>
-                Worked with REST APIs to ensure the secure transmission of
-                health information over a national network of hospitals and
-                patients.
-              </li>
-              <li>
-                Used REST APIs to make health records accessible in accordance
-                with HL7 standards to doctors/patients.
+                Worked on enabling the secure exchange of health records between
+                doctors and patients in a national network of hospitals,
+                doctors, and patients in conformance with Direct and HL7
+                standards.
               </li>
             </ul>
           </div>

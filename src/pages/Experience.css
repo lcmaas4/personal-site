@@ -114,6 +114,28 @@ h1 {
   color: white;
 }
 
+.experience-container ul,
+.experience-container ol {
+  padding-left: 2em;
+}
+
+.experience-container ul li {
+  margin-bottom: 1.1em;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+.experience-container ul ul {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.experience-container ul ul li {
+  margin-bottom: 0.9em;
+  text-indent: -0.7em;
+  padding-left: 0.7em;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .experience-container {

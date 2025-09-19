@@ -6,6 +6,8 @@ const photoEditingImg = "assets/images/programwithimageopen.png";
 const connectFourImg = "assets/images/c4aicrop.png";
 const samoShowdownImg = "assets/images/fighter.png";
 const mazeGameImg = "assets/images/maze.png";
+const noStylistImg = "assets/images/nostylist.png";
+const neuOverflowImg = "assets/images/neuoverflow.png";
 
 function Projects() {
   const [modalContent, setModalContent] = useState(null);
@@ -23,6 +25,76 @@ function Projects() {
       <h1>Projects</h1>
       <div className="projects-grid">
         <div className="project-card" onClick={() => openModal("PhotoEditing")}>
+          <img src={noStylistImg} alt="NO STYLIST" className="project-image" />
+          <h2>
+            NO STYLIST{" "}
+            <a
+              href="https://nostylist.net"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit
+            </a>
+          </h2>
+          <p>
+            Independent venture | Full-stack AI stylist web app | React,
+            TypeScript, Node.js, Express, MongoDB, Python, TensorFlow
+          </p>
+          <p>May 2025 –</p>
+          <p>
+            Comprehensive wardrobe management platform featuring AI-powered
+            outfit feedback, advanced color analysis, Google Vision-powered
+            categorization of clothing items, and responsive design for
+            mobile/desktop.
+          </p>
+          <p>
+            Developed and implemented REST API with Express.js, MongoDB, and JWT
+            authentication supporting user registration, wardrobe management,
+            outfit suggestions, and secure, Cloudinary-integrated image upload.
+          </p>
+          <p>
+            Implemented serverless deployment with Netlify functions for
+            scalable backend architecture and optimized performance with rate
+            limiting, image optimization, and efficient data caching strategies
+          </p>
+        </div>
+
+        <div className="project-card" onClick={() => openModal("PhotoEditing")}>
+          <img
+            src={neuOverflowImg}
+            alt="NEUoverflow"
+            className="project-image"
+          />
+          <h2>NEUoverflow</h2>
+          <p>
+            Full-stack Q&amp;A platform | React, TypeScript, Node.js, Express,
+            MongoDB, Google OAuth
+          </p>
+          <p>September 2024 – December 2024</p>
+          <p>
+            Built out inter-user chat functionality end-to-end (model, schema,
+            controller, backend, frontend, UX).
+          </p>
+          <p>
+            Engineered robust user authentication using JWT and bcrypt,
+            reinforcing security and user access control.
+          </p>
+          <p>
+            Operated within an Agile framework, actively participating in sprint
+            planning and stand-ups to drive iterative improvements and deliver
+            features efficiently.
+          </p>
+          <p>
+            Designed and implemented Mongo schemas/models for data types (User,
+            Question, Answer, Comment).
+          </p>
+          <p>
+            Employed modern React patterns and hooks for optimized rendering and
+            state management.
+          </p>
+        </div>
+
+        <div className="project-card" onClick={() => openModal("PhotoEditing")}>
           <img
             src={photoEditingImg}
             alt="Photo Editing Software"
@@ -30,10 +102,10 @@ function Projects() {
           />
           <h2>Photo Editing Software</h2>
           <p>Standalone Java program (~1200 lines of code) made in IntelliJ</p>
-          <p>May 2022 - June 2022</p>
+          <p>May 2022 – June 2022</p>
           <p>
             Enabled users to perform many image manipulations, including
-            resizing, applying filters (sepia, greyscale, blur,
+            resizing, applying filters (sepia, grayscale, blur,
             horizontal/vertical flips, etc.), and to save/load photos to/from
             user’s computer.
           </p>
@@ -65,9 +137,18 @@ function Projects() {
             alt="Samo Showdown"
             className="project-image"
           />
-          <h2>Samo Showdown</h2>
+          <h2>
+            Samo Showdown{" "}
+            <a
+              href="https://github.com/lcmaas4/t2-fighter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </h2>
           <p>HTML/JavaScript/CSS fighting game made in Notepad++</p>
-          <p>January 2020 - June 2020</p>
+          <p>January 2020 – June 2020</p>
           <p>
             Coded JavaScript logic to handle user actions, game states, and
             combatant health. Implemented spritesheets to animate the movement
@@ -77,18 +158,20 @@ function Projects() {
             Won 2021 Silvergames.com student scholarship competition, and a
             $2000 scholarship.
           </p>
-          <a
-            href="https://github.com/lcmaas4/t2-fighter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View on GitHub
-          </a>
         </div>
 
         <div className="project-card" onClick={() => openModal("MazeGame")}>
           <img src={mazeGameImg} alt="Maze Game" className="project-image" />
-          <h2>Maze Game</h2>
+          <h2>
+            Maze Game{" "}
+            <a
+              href="https://github.com/lcmaas4/maze"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </h2>
           <p>
             Java program which randomly generates and then solves a maze of
             arbitrary size
