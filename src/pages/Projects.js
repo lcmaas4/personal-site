@@ -55,7 +55,7 @@ function Projects() {
           <p>
             Implemented serverless deployment with Netlify functions for
             scalable backend architecture and optimized performance with rate
-            limiting, image optimization, and efficient data caching strategies
+            limiting, image optimization, and efficient data caching strategies.
           </p>
         </div>
 

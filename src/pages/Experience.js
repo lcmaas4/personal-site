@@ -151,7 +151,7 @@ function Experience() {
                   SBS App
                 </a>
                 's learning algorithms by implementing parallel processing
-                strategies
+                strategies.
               </li>
             </ul>
           </div>
