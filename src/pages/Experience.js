@@ -27,37 +27,36 @@ function Experience() {
                 Led frontend development and contributed to specification and
                 backend development of numerous new features to meet customer
                 needs:
-                <ul>
-                  <li>
-                    <em>Cost centers:</em> Custom accounting categories allowing
-                    businesses to tag transactions to differentiate them for
-                    accounting purposes. Developed creation, editing, and
-                    transaction application flow, as well as interactive,
-                    searchable table view for all created cost centers.
-                  </li>
-
-                  <li>
-                    <em>Brand settings profiles:</em> Enabled businesses to
-                    customize branding on customer interaction with our platform
-                    relating to their business operations.
-                  </li>
-
-                  <li>
-                    <em>Command Center home page:</em> New home page for my
-                    team’s flagship product, Command Center, with custom cards
-                    enabling users to navigate to different sections of Command
-                    Center.
-                  </li>
-
-                  <li>
-                    <em>Paginated organizations table:</em> Developed a
-                    paginated table for all child organizations and their
-                    relationships for root organizations. Created and optimized
-                    interactive functionality, allowing users to modify
-                    attributes of and relationships between organizations.
-                  </li>
-                </ul>
               </li>
+              <ul>
+                <li>
+                  <em>Cost centers:</em> Custom accounting categories allowing
+                  businesses to tag transactions to differentiate them for
+                  accounting purposes. Developed creation, editing, and
+                  transaction application flow, as well as interactive,
+                  searchable table view for all created cost centers.
+                </li>
+
+                <li>
+                  <em>Brand settings profiles:</em> Enabled businesses to
+                  customize branding on customer interaction with our platform
+                  relating to their business operations.
+                </li>
+
+                <li>
+                  <em>Command Center home page:</em> New home page for my team’s
+                  flagship product, Command Center, with custom cards enabling
+                  users to navigate to different sections of Command Center.
+                </li>
+
+                <li>
+                  <em>Paginated organizations table:</em> Developed a paginated
+                  table for all child organizations and their relationships for
+                  root organizations. Created and optimized interactive
+                  functionality, allowing users to modify attributes of and
+                  relationships between organizations.
+                </li>
+              </ul>
 
               <li>
                 Wrote comprehensive end-to-end (WebDriver E2E) and unit (Jest)

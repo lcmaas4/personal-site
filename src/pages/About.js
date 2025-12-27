@@ -151,49 +151,36 @@ function About() {
           took Jared D’Onofrio’s AP Language and Composition course during my
           junior year at Francis Parker School. He opened my eyes to how the
           analysis of literature could inspire new insights about the nature of
-          ourselves and our reality. This realization hit me like a ton of
-          bricks and led me down a rabbit hole of philosophy podcasts, and,
-          eventually, philosophy books and essays, which fundamentally changed
-          the way I saw the world. I began to appreciate the beauty and
-          complexity of the human experience, which I find to be derived from
-          its inevitable end and intrinsic chaos.
+          ourselves and our reality. This epiphany led me down a rabbit hole of
+          philosophy podcasts, and, eventually, philosophy books and essays.
         </p>
         <p>
           The work of the Existentialists, particularly those in the Absurdist
           camp, speaks to me the most. This group of authors has most influenced
-          my philosophy of life, which can be simplified roughly to the idea
-          that the lack of inherent meaning in our existence is liberating, as
-          this lack of predetermined meaning gives us the opportunity,
-          circumstance and time permitting, to carve out almost whatever form of
-          meaning we desire. I’ve recently taken particular interest in Guy
-          Debord’s The Society of the Spectacle, which, while certainly
-          applicable to his world when he wrote it in 1967, I find to be even
-          more applicable to today’s world, where social media and consumerism
-          have taken his concept of the Spectacle to extremes that perhaps even
-          he could not have foreseen.
+          my personal philosophy of life, which entails generally that existence
+          inherently lacks meaning, and this is liberating because the
+          consequent vacuum of meaning gives one the space, circumstance and
+          time permitting, to carve out almost whatever form of meaning one
+          desires. I’ve recently taken particular interest in Guy Debord’s The
+          Society of the Spectacle, which, while certainly applicable to his
+          world when he wrote it in 1967, I find to be even more applicable to
+          today’s world, where social media and consumerism have taken his
+          concept of the Spectacle to extremes that perhaps even he could not
+          have foreseen.
         </p>
       </section>
 
       <section className="about-section">
         <h2>Languages</h2>
         <p>
-          As a Latin American, I grew up around spoken Spanish at my
-          grandparents’ house, then deepened my knowledge with studies in high
-          school, and, in the past couple years, conversations in Spanish with
-          people in Madrid, Sevilla, Barcelona, Medellin, and San Juan to
-          achieve a level somewhere between proficiency and fluency. My
-          knowledge of Spanish formed the basis of my studies of French at
-          college, and my learning of Italian, somewhat out of necessity, during
-          my four months working in Perugia, Italy.
-        </p>
-        <p>
-          I love furthering my knowledge and understanding of these languages
-          through individual study, films, music, and conversations, because I
-          believe that everyone has their own story to tell, and that, within
-          every story, is some nugget of wisdom or some cool experience that
-          promises to enhance the life of others, and that, by learning these
-          languages, I increase the sample size of potential people I can form
-          connections and have these exchanges with.
+          I grew up around spoken Spanish at my Paraguayan grandparents’ house,
+          then deepened my proficiency in Spanish with studies in high school.
+          In the past few years, I've had the opportunity to engage in
+          conversations in Spanish with people in Madrid, Sevilla, Barcelona,
+          Medellin, San Juan, and wherever else it's come in handy to achieve a
+          level somewhere between proficiency and fluency. My knowledge of
+          Spanish formed the basis of my studies of French at college, and my
+          learning of Italian during my four months working in Perugia, Italy.
         </p>
       </section>
 

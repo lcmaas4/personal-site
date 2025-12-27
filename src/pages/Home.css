@@ -52,6 +52,7 @@
   .hero-section {
     flex-direction: column;
     text-align: center;
+    margin-top: 15%;
   }
 
   .hero-image {

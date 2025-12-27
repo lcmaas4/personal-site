@@ -16,9 +16,9 @@ function Home() {
             I'm a people-oriented software developer with experience across the
             tech stack through a variety of roles and projects. I specialize in
             full-stack and frontend development, with expertise in building
-            scalable and efficient systems with an eye for design. I've just
-            finished a successful 8+ months working as a Software Engineering
-            Co-op at Proof.
+            reusable components and maintainable systems with an eye for design.
+            I graduated from Northeastern University in 2025 and am joining
+            Compass as a Software Engineer I in Boston, MA in January 2026.
           </p>
           <a
             href="/assets/Maas_Luis_Dec2025.pdf"
